@@ -6,14 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic-Game</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">   
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <script src="js/game.js"></script>
+    <div class="jumbotron">
+        <h1 class="text-center">Psychic Game</h1>
+        <h4 class="text-center">Guess what letter I'm thinking of</h4>
+    </div>
 
+    <h5>Guesses left: <span id="guessesLeft">9</span></h5>
+    <h5>Wins: <span id="wins">0</span></h5>
+    <h5>Losses: <span id="losses">0</span></h5>
+    <h5>Letters Typed: <span id="lettersTyped"></span></h5>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
